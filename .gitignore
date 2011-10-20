@@ -1,0 +1,6 @@
+build
+.bundle
+.idea
+*.lock
+*.iml
+*.gem

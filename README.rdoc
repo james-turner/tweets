@@ -1,0 +1,36 @@
+=begin
+= Tweets
+
+Tweets provides lists of twitter updates based on the supplied string.
+
+  Build: http://github.com/james-turner/tweets
+  Gem: https://rubygems.org/gems/tweets
+  Wiki: http://github.com/james-turner/tweets/wiki
+
+== Installation
+
+The latest release is available on rubygems.
+ gem install tweets
+
+== Require
+
+To use tweets:
+ require 'tweets'
+
+== Usage
+
+The tweets method is available on all strings
+and will return you an array of the latest twitter
+status updates
+
+It couldn't be simpler
+ "justin bieber".tweets
+ =>
+ ["justin bieber is the best",
+  "i love justin bieber",
+  "wow, love the latest justin bieber track"
+ ]
+
+= COPYRIGHT
+Copyright 2011 J. Turner <copyright@phpninjas.co.uk>.
+=end
